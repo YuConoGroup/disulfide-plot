@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## 用法一：内置示例
 
 ```bash
-cd /data/work/cd/project/tools
+cd disulfide-plot
 python3 disulfide_plot.py --demo --out /tmp/opencode/demo.png
 ```
 
@@ -39,7 +39,7 @@ python3 disulfide_plot.py --demo --out /tmp/opencode/demo.png
 ## 用法二：从 CSV 画
 
 ```bash
-cd /data/work/cd/project/tools
+cd disulfide-plot
 python3 disulfide_plot.py -i examples/candidates.csv \
   -o /tmp/opencode/candidates.png \
   --title "1-4 / 2-5 / 3-6 connectivity"
@@ -56,10 +56,10 @@ python3 disulfide_plot.py -i examples/candidates.csv \
 ## 用法三：直接从 BLAST 结果画
 
 ```bash
-cd /data/work/cd/project/tools
+cd disulfide-plot
 python3 disulfide_plot.py \
-  --blast /tmp/opencode/conolaxy/c006/short_relaxed.tsv \
-  --fasta /tmp/opencode/conolaxy/c004/all_unique.fasta \
+  --blast /path/to/blast_short.tsv \
+  --fasta /path/to/library.fasta \
   --top 20 --cys 6 \
   -o /tmp/opencode/blast_top20.png
 ```
@@ -137,7 +137,7 @@ P05581_Pu6.9,SCGEEGEGCYTRPCCSLGLKCIGIRSHGGLCREE,1-4;2-5;3-6,dist=1
 ## 文件结构
 
 ```
-tools/
+disulfide-plot/
 ├── disulfide_plot.py    主脚本（单文件，无第三方依赖除 Pillow）
 ├── README.md            本文件
 ├── requirements.txt     Pillow>=9.0
@@ -167,4 +167,4 @@ tools/
 
 - 版本：2026-10-30，内部工具，随 Conolaxy 项目维护
 - 参考图：`DeepCono/pic/微信图片_20261029160244_78_151.png`
-- 脚本位置：`/data/work/cd/project/tools/disulfide_plot.py`
+- 脚本位置：仓库根目录 `disulfide_plot.py`
