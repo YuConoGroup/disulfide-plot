@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1186" height="2720" viewBox="0 0 1186 2720">
 <rect width="1186" height="2720" fill="#ffffff"/>
-<text x="18" y="49" font-family="Liberation Serif" font-size="34" fill="#111111">1-4 / 2-5 / 3-6 connectivity (loop lengths relaxed)</text>
+<text x="18" y="49" font-family="Liberation Serif" font-size="34" fill="#111111">1-4 / 2-5 / 3-6 connectivity</text>
 <text x="18" y="120.1" font-family="Liberation Serif" font-size="34" fill="#111111">Query_Tst2:</text>
 <text x="264.14" y="120.1" font-family="Liberation Serif" font-size="34" fill="#d62728">C</text>
 <text x="286.81" y="120.1" font-family="Liberation Serif" font-size="34" fill="#111111">K</text>
