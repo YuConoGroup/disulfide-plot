@@ -160,12 +160,8 @@ def records_from_blast(
 
 def demo_records() -> list[Record]:
     data = [
-        ("Query Tst2", "CKGODAPCSKSKDCCGEASMCSKGADGKKTCMIDKLWG*", ""),
-        ("P05581 Pu6.9", "SCGEEGEGCYTRPCCSLGLKCIGIRSHGGLCREE", ""),
-        ("P04607 Bu14", "CSEGGDFCSKNSECCDKKCQDEGEGRGVCLIVPQNVILLH", ""),
-        ("P06743 Mi012", "ECKGKGQGCTNTALCCPGLECEGQSQGGLCVDN", ""),
-        ("P05947 Br7.10", "DCQESGQGCTGSPPCCPGLSCSGTHAGGMCV", ""),
-        ("P06734 Mi003", "ECREKGQGCTNTALCCPGLECEGRSQGGLCVDN", ""),
+        ("Query", "CKGODAPCSKSKDCCGEASMCSKGADGKKTCMIDKLWG*", ""),
+        ("Pu6.9", "SCGEEGEGCYTRPCCSLGLKCIGIRSHGGLCREE", ""),
     ]
     return [Record(n, s, parse_pairs(p, s.count("C")), "") for n, s, p in data]
 
