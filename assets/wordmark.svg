@@ -1,16 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 170" width="960" height="170" role="img" aria-label="Disulfide Connectivity Plotter">
-  <rect width="960" height="170" fill="#ffffff"/>
-
-  <defs>
-    <path id="wordmark-arc" d="M40 132 Q480 96 920 132" fill="none"/>
-  </defs>
-
-  <text font-family="Didot, 'Bodoni MT', 'Times New Roman', Georgia, serif"
-        font-size="38" letter-spacing="7" fill="#2f3a40">
-    <textPath href="#wordmark-arc" startOffset="50%" text-anchor="middle">
-      DISULFIDE CONNECTIVITY PLOTTER
-    </textPath>
-  </text>
-
-  <line x1="170" y1="150" x2="790" y2="150" stroke="#d8d2c8" stroke-width="1.4" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150" role="img" aria-label="Disulfide-Plot">
+  <rect width="900" height="150" fill="#ffffff"/>
+  <text x="450" y="98" text-anchor="middle"
+        font-family="Didot, 'Bodoni MT', 'Times New Roman', Georgia, serif"
+        font-size="72" letter-spacing="2" fill="#1f2d3d">Disulfide-Plot</text>
 </svg>

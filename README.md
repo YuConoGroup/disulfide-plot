@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="120" alt="disulfide-plot logo">
+  <img src="assets/logo.svg" width="128" alt="Disulfide-Plot logo">
 </p>
 
 <p align="center">
